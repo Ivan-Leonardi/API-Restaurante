@@ -49,17 +49,14 @@ Principais rotas
 | rota              | descrição                                         
 |----------------------|-----------------------------------------------------
 | <kbd>GET /tables</kbd>  | Listar mesas
-
 | <kbd>GET /products</kbd>  | Listar produtos
 | <kbd>POST /products</kbd>  | Criar um novo produto
 | <kbd>PUT /products/:id</kbd>  | Editar um produto
 | <kbd>PUT /products/:id</kbd>  | Editar um produto
 | <kbd>DELETE /products/:id</kbd>  | Remover um produto
-
 | <kbd>GET /tables-sessions</kbd>  | Listar sessão das mesas (abertas ou fechadas)
 | <kbd>POST /tables-sessions</kbd>  | Abrir uma sessão para mesa
 | <kbd>PATCH /tables-sessions/:id</kbd>  | Fechar uma sessão de mesa
-
 | <kbd>GET /orders/table-session/:id</kbd>  | Listar pedidos de uma mesa
 | <kbd>GET /orders/table-session/:id/total</kbd>  | Exibir o valor total dos produtos de uma mesa
 | <kbd>POST /orders</kbd>  | Criar o pedido de uma mesa
